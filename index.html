@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My First GitHub Page</title>
-  </head>
-  <body>
-    <h1>สวัสดีจากพิม ❤️</h1>
-    <p>นี่คือเว็บไซต์แรกของฉันบน GitHub Pages!</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KryptoMate Bubbles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>KryptoMate Bubbles</h1>
+      <div id="themeToggle">🌗</div>
+    </header>
+    <main>
+      <canvas id="bubbleChart"></canvas>
+      <div id="infoPanel"></div>
+    </main>
+  </div>
+  <script src="config.js"></script>
+  <script src="indicators.js"></script>
+  <script src="utils.js"></script>
+  <script src="bubble.js"></script>
+  <script src="app.js"></script>
+</body>
 </html>
